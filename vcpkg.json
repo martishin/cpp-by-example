@@ -1,0 +1,8 @@
+{
+  "name": "cpp-by-example",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "boost-asio"
+  ],
+  "builtin-baseline": "98aa6396292d57e737a6ef999d4225ca488859d5"
+}
