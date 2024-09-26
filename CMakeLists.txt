@@ -8,11 +8,14 @@ endif()
 
 project(cpp_by_example)
 
+set(VCPKG_MANIFEST_MODE ON)
+
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 find_package(boost_asio CONFIG REQUIRED)
 
 add_executable(hello_world src/hello_world.cpp)
-
 add_executable(asio_hello_world src/asio_hello_world.cpp)
 target_link_libraries(asio_hello_world PRIVATE Boost::asio)
+add_executable(switch src/switch.cpp)

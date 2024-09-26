@@ -8,5 +8,8 @@ run-hello-world: all
 run-asio-hello-world: all
 	./build/asio_hello_world
 
+run-switch: all
+	./build/switch
+
 clean:
 	rm -rf build
