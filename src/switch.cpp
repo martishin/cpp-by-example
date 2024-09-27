@@ -1,7 +1,8 @@
 #include <iostream>
 
 int main() {
-  int const x = 2;
+  const int x = 2;
+
   switch (x) {
     case 1:
       std::cout << "One" << std::endl;
