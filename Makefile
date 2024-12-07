@@ -17,5 +17,8 @@ run-asio-hello-world: build-dev
 run-switch: build-dev
 	./build/debug/switch
 
+run-linked-list: build-dev
+	./build/debug/linked_list
+
 clean:
 	rm -rf build
